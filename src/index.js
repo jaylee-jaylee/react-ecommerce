@@ -27,11 +27,11 @@ Amplify.configure({
 });
 
 const client = new AWSAppSyncClient({
-  url: 'URL',
-  region: 'REGION',
+  url: 'https://2h7lxts5tvbrzmbnurjtd6r4lm.appsync-api.ap-northeast-2.amazonaws.com/graphql',
+  region: 'ap-northeast-2',
   auth: {
     type: 'API_KEY',
-    apiKey: 'KEY',
+    apiKey: 'da2-7supg7gysvb3dbnkrq36a4kcnu',
   }
 })
 
